@@ -10,10 +10,10 @@ Chaque vidéo de la chaîne YouTube [Matheux Malin](https://www.youtube.com/@Mat
 | `verif.py` | Calcule chaque réponse de façon exacte (`fractions`, `sympy`) |
 | `test_verif.py` | Tests (GIVEN / WHEN / THEN) : bonnes réponses, et origine de chaque mauvaise réponse de QCM |
 | `preuves/` | Résultats produits par le programme, lus par les cartes de la vidéo |
-| `README.md` | Lien vers la vidéo et vers l'énoncé officiel |
+| `README.md` | Lien vers la vidéo et énoncés des exercices |
 
-Les énoncés ne sont pas recopiés : chaque question est référencée (session, numéro) avec un lien vers la source
-officielle.
+Tous les exercices sont **originaux**, écrits pour la chaîne sur les notions et au format des examens : aucun
+énoncé de sujet d'examen n'est repris.
 
 ## Lancer la vérification
 
