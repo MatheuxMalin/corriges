@@ -10,7 +10,7 @@ Chaque vidéo de la chaîne YouTube [Matheux Malin](https://www.youtube.com/@Mat
 | `verif.py` | Calcule chaque réponse de façon exacte (`fractions`, `sympy`) |
 | `test_verif.py` | Tests (GIVEN / WHEN / THEN) : bonnes réponses, et origine de chaque mauvaise réponse de QCM |
 | `preuves/` | Résultats produits par le programme, lus par les cartes de la vidéo |
-| `README.md` | Lien vers la vidéo et énoncés des exercices |
+| `README.md` | Lien vers la vidéo, notions du programme couvertes, méthode de vérification |
 
 Tous les exercices sont **originaux**, écrits pour la chaîne sur les notions et au format des examens : aucun
 énoncé de sujet d'examen n'est repris.
@@ -18,11 +18,14 @@ Tous les exercices sont **originaux**, écrits pour la chaîne sur les notions e
 ## Lancer la vérification
 
 ```
-pip install sympy pytest
+pip install sympy
 cd <dossier-de-la-video>
 python verif.py
-pytest
+python -m unittest -v
 ```
+
+Chaque dossier a son propre `README.md` : la vidéo, les notions du programme couvertes, et comment chaque
+réponse est vérifiée.
 
 ## Avertissement
 
