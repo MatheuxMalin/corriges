@@ -1,0 +1,522 @@
+[
+  {
+    "n": "1",
+    "bloc": "Évolutions et variations",
+    "enonce": "Un prix de 80 € augmente de 15 %. Quel est le nouveau prix ?",
+    "reponse": "92 €",
+    "valeur": "92",
+    "etapes": {
+      "10 % de 80": "8",
+      "5 % de 80": "4",
+      "15 % de 80": "12",
+      "coefficient": "1,15",
+      "80 × 1,15": "92"
+    },
+    "pieges": [
+      {
+        "erreur": "ajouter 15 € au lieu de 15 %",
+        "resultat": "95 €"
+      }
+    ]
+  },
+  {
+    "n": "2",
+    "bloc": "Évolutions et variations",
+    "enonce": "Après une baisse de 20 %, un article coûte 48 €. Quel était son prix avant la baisse ?",
+    "reponse": "60 €",
+    "valeur": "60",
+    "etapes": {
+      "coefficient": "0,8",
+      "48 ÷ 8": "6",
+      "× 10": "60",
+      "piège 48 × 1,2": "57,6",
+      "20 % de 60": "12",
+      "60 − 12": "48"
+    },
+    "pieges": [
+      {
+        "erreur": "remonter de 20 % : 48 × 1,2",
+        "resultat": "57,6 €"
+      }
+    ]
+  },
+  {
+    "n": "3",
+    "bloc": "Évolutions et variations",
+    "enonce": "Une population passe de 250 à 300 habitants. Quel est le taux d'évolution, en pourcentage ?",
+    "reponse": "+20 %",
+    "valeur": "0,2",
+    "etapes": {
+      "300 − 250": "50",
+      "50 ÷ 250": "0,2",
+      "piège 50 ÷ 300": "1/6",
+      "piège en % arrondi au dixième": "16,7",
+      "250 × 1,2": "300"
+    },
+    "pieges": [
+      {
+        "erreur": "diviser par la valeur d'arrivée : 50 ÷ 300",
+        "resultat": "environ +16,7 %"
+      }
+    ]
+  },
+  {
+    "n": "4",
+    "bloc": "Évolutions et variations",
+    "enonce": "Un prix augmente de 10 %, puis baisse de 10 %. Quelle est l'évolution globale ?",
+    "reponse": "−1 %",
+    "valeur": "−0,01",
+    "etapes": {
+      "1,1 × 0,9": "0,99",
+      "100 × 1,1": "110",
+      "10 % de 110": "11",
+      "110 − 11": "99"
+    },
+    "pieges": [
+      {
+        "erreur": "additionner les taux : +10 % − 10 %",
+        "resultat": "0 %"
+      }
+    ]
+  },
+  {
+    "n": "5",
+    "bloc": "Évolutions et variations",
+    "enonce": "Un prix baisse de 20 %. Quelle hausse faut-il appliquer pour revenir au prix de départ ?",
+    "reponse": "+25 %",
+    "valeur": "0,25",
+    "etapes": {
+      "100 après −20 %": "80",
+      "100 − 80": "20",
+      "20 ÷ 80": "0,25",
+      "piège 80 × 1,2": "96",
+      "1 ÷ 0,8": "1,25"
+    },
+    "pieges": [
+      {
+        "erreur": "prendre le même taux dans l'autre sens : +20 %",
+        "resultat": "96 € au lieu de 100 €"
+      }
+    ]
+  },
+  {
+    "n": "6",
+    "bloc": "Calcul numérique et algébrique",
+    "enonce": "Résoudre (2x − 6)(x + 5) = 0.",
+    "reponse": "S = {−5 ; 3}",
+    "valeur": [
+      "−5",
+      "3"
+    ],
+    "etapes": {
+      "2x = 6 donne x": "3",
+      "x + 5 = 0 donne x": "−5",
+      "vérif 2 × 3 − 6": "0"
+    },
+    "pieges": [
+      {
+        "erreur": "lire le 6 de la parenthèse au lieu de résoudre 2x = 6",
+        "resultat": "S = {−5 ; 6}"
+      }
+    ]
+  },
+  {
+    "n": "7",
+    "bloc": "Calcul numérique et algébrique",
+    "enonce": "Donner le signe de −3x + 12 selon les valeurs de x.",
+    "reponse": "positif pour x < 4, nul en 4, négatif pour x > 4",
+    "valeur": {
+      "racine": "4",
+      "signe avant": "1",
+      "signe après": "−1"
+    },
+    "etapes": {
+      "racine de −3x + 12": "4",
+      "valeur en x = 0": "12"
+    },
+    "pieges": [
+      {
+        "erreur": "oublier que le coefficient −3 est négatif",
+        "resultat": "négatif avant 4, positif après"
+      }
+    ]
+  },
+  {
+    "n": "8",
+    "bloc": "Calcul numérique et algébrique",
+    "enonce": "Donner le signe de (x − 1)(x + 2) selon les valeurs de x.",
+    "reponse": "positif sur ]−∞ ; −2[ et sur ]1 ; +∞[, négatif sur ]−2 ; 1[",
+    "valeur": {
+      "racines": [
+        "−2",
+        "1"
+      ],
+      "signes": [
+        "1",
+        "−1",
+        "1"
+      ]
+    },
+    "etapes": {
+      "racines": [
+        "−2",
+        "1"
+      ],
+      "valeur en x = 0": "−2"
+    },
+    "pieges": [
+      {
+        "erreur": "se tromper de signe sur les racines",
+        "resultat": "racines −1 et 2"
+      }
+    ]
+  },
+  {
+    "n": "9",
+    "bloc": "Calcul numérique et algébrique",
+    "enonce": "Développer et réduire (2x − 3)².",
+    "reponse": "4x² − 12x + 9",
+    "valeur": "4x² − 12x + 9",
+    "etapes": {
+      "(2x)² : coefficient": "4",
+      "double produit 2 × 2 × 3": "12",
+      "3²": "9",
+      "vérif x = 1, (2 − 3)²": "1",
+      "vérif x = 1, développé": "1"
+    },
+    "pieges": [
+      {
+        "erreur": "oublier le double produit",
+        "resultat": "4x² + 9"
+      },
+      {
+        "erreur": "oublier d'élever le 2 au carré",
+        "resultat": "2x² − 12x + 9"
+      }
+    ]
+  },
+  {
+    "n": "10",
+    "bloc": "Calcul numérique et algébrique",
+    "enonce": "Factoriser 4x² − 25.",
+    "reponse": "(2x − 5)(2x + 5)",
+    "valeur": "4x² − 25",
+    "etapes": {
+      "4x² = (2x)²": "4",
+      "25 = 5²": "25",
+      "piège (2x − 5)² : terme en x": "−20"
+    },
+    "pieges": [
+      {
+        "erreur": "écrire (2x − 5)²",
+        "resultat": "4x² − 20x + 25 une fois développé"
+      }
+    ]
+  },
+  {
+    "n": "11",
+    "bloc": "Fonctions et représentations",
+    "enonce": "Quel est le coefficient directeur de la droite passant par A(1 ; 3) et B(4 ; 9) ?",
+    "reponse": "2",
+    "valeur": "2",
+    "etapes": {
+      "9 − 3": "6",
+      "4 − 1": "3",
+      "6 ÷ 3": "2",
+      "piège 3 ÷ 6": "0,5"
+    },
+    "pieges": [
+      {
+        "erreur": "inverser le quotient : Δx ÷ Δy",
+        "resultat": "0,5"
+      }
+    ]
+  },
+  {
+    "n": "12",
+    "bloc": "Fonctions et représentations",
+    "enonce": "Donner l'équation réduite de la droite de coefficient directeur 2 passant par A(1 ; 3).",
+    "reponse": "y = 2x + 1",
+    "valeur": {
+      "m": "2",
+      "p": "1"
+    },
+    "etapes": {
+      "3 = 2 × 1 + p donne p": "1",
+      "vérif 2 × 1 + 1": "3"
+    },
+    "pieges": [
+      {
+        "erreur": "prendre l'ordonnée de A comme ordonnée à l'origine",
+        "resultat": "y = 2x + 3"
+      }
+    ]
+  },
+  {
+    "n": "13",
+    "bloc": "Fonctions et représentations",
+    "enonce": "Lire l'équation réduite de la droite tracée (elle passe par (0 ; −2) et (3 ; 0)).",
+    "reponse": "y = (2/3)x − 2",
+    "valeur": {
+      "m": "2/3",
+      "p": "−2"
+    },
+    "etapes": {
+      "ordonnée à l'origine": "−2",
+      "on avance de": "3",
+      "on monte de": "2",
+      "coefficient directeur": "2/3",
+      "vérif (2/3) × 3 − 2": "0"
+    },
+    "pieges": [
+      {
+        "erreur": "prendre 3, lu sur l'axe des abscisses, comme ordonnée à l'origine",
+        "resultat": "y = (2/3)x + 3"
+      }
+    ]
+  },
+  {
+    "n": "14",
+    "bloc": "Fonctions et représentations",
+    "enonce": "Avec la courbe de f tracée, résoudre graphiquement f(x) = 1.",
+    "reponse": "S = {−1 ; 3}",
+    "valeur": [
+      "−1",
+      "3"
+    ],
+    "etapes": {
+      "f(−1)": "1",
+      "f(3)": "1"
+    },
+    "pieges": [
+      {
+        "erreur": "lire où la courbe coupe l'axe des abscisses (c'est résoudre f(x) = 0)",
+        "resultat": "environ −0,7 et 2,7"
+      }
+    ]
+  },
+  {
+    "n": "15",
+    "bloc": "Fonctions et représentations",
+    "enonce": "Avec la même courbe, résoudre graphiquement f(x) < 1.",
+    "reponse": "S = ]−1 ; 3[",
+    "valeur": "]−1 ; 3[",
+    "etapes": {
+      "f(1), le minimum": "−3",
+      "f(−2)": "6",
+      "f(4)": "6"
+    },
+    "pieges": [
+      {
+        "erreur": "garder la partie de la courbe au-dessus de la droite",
+        "resultat": "[−2 ; −1[ ∪ ]3 ; 4]"
+      },
+      {
+        "erreur": "fermer les crochets alors que l'inégalité est stricte",
+        "resultat": "[−1 ; 3]"
+      }
+    ]
+  },
+  {
+    "n": "16",
+    "bloc": "Statistiques",
+    "enonce": "Calculer la moyenne de la série : 12 ; 15 ; 9 ; 14 ; 10.",
+    "reponse": "12",
+    "valeur": "12",
+    "etapes": {
+      "somme": "60",
+      "nombre de valeurs": "5",
+      "60 ÷ 5": "12",
+      "écarts à la moyenne": [
+        "0",
+        "3",
+        "−3",
+        "2",
+        "−2"
+      ],
+      "piège 60 ÷ 4": "15",
+      "plus grande valeur": "15"
+    },
+    "pieges": [
+      {
+        "erreur": "diviser par 4 au lieu de 5",
+        "resultat": "15"
+      }
+    ]
+  },
+  {
+    "n": "17",
+    "bloc": "Statistiques",
+    "enonce": "Donner la médiane de la série : 3 ; 7 ; 8 ; 12 ; 15 ; 20.",
+    "reponse": "10",
+    "valeur": "10",
+    "etapes": {
+      "valeurs du milieu": [
+        "8",
+        "12"
+      ],
+      "8 + 12": "20",
+      "20 ÷ 2": "10"
+    },
+    "pieges": [
+      {
+        "erreur": "prendre une seule valeur du milieu",
+        "resultat": "8 ou 12"
+      }
+    ]
+  },
+  {
+    "n": "18",
+    "bloc": "Statistiques",
+    "enonce": "Diagramme en boîte : min 4 ; Q1 = 8 ; médiane 11 ; Q3 = 15 ; max 20. Donner l'écart interquartile.",
+    "reponse": "7",
+    "valeur": "7",
+    "etapes": {
+      "15 − 8": "7",
+      "médiane": "11",
+      "piège 20 − 4": "16"
+    },
+    "pieges": [
+      {
+        "erreur": "calculer l'étendue max − min",
+        "resultat": "16"
+      }
+    ]
+  },
+  {
+    "n": "19",
+    "bloc": "Statistiques",
+    "enonce": "Dans un diagramme circulaire, un secteur mesure 72°. Quelle proportion représente-t-il ?",
+    "reponse": "0,2, soit 20 %",
+    "valeur": "0,2",
+    "etapes": {
+      "5 × 72": "360",
+      "72 ÷ 360": "0,2",
+      "dénominateur de la fraction": "5"
+    },
+    "pieges": [
+      {
+        "erreur": "diviser par 100 au lieu de 360",
+        "resultat": "72 %"
+      }
+    ]
+  },
+  {
+    "n": "20",
+    "bloc": "Statistiques",
+    "enonce": "Notes 8 (coefficient 1), 14 (coefficient 2) et 11 (coefficient 3). Moyenne ?",
+    "reponse": "11,5",
+    "valeur": "11,5",
+    "etapes": {
+      "produits": [
+        "8",
+        "28",
+        "33"
+      ],
+      "somme des produits": "69",
+      "somme des coefficients": "6",
+      "69 ÷ 6": "11,5",
+      "piège 8 + 14 + 11": "33",
+      "piège 33 ÷ 3": "11"
+    },
+    "pieges": [
+      {
+        "erreur": "faire la moyenne sans les coefficients",
+        "resultat": "11"
+      }
+    ]
+  },
+  {
+    "n": "21",
+    "bloc": "Probabilités",
+    "enonce": "Arbre : P(A) = 0,3 ; P_A(B) = 0,5 ; P_Ā(B) = 0,2. Calculer P(A ∩ B).",
+    "reponse": "0,15",
+    "valeur": "0,15",
+    "etapes": {
+      "0,3 × 0,5": "0,15",
+      "piège 0,3 + 0,5": "0,8"
+    },
+    "pieges": [
+      {
+        "erreur": "additionner au lieu de multiplier le long du chemin",
+        "resultat": "0,8"
+      }
+    ]
+  },
+  {
+    "n": "22",
+    "bloc": "Probabilités",
+    "enonce": "Même arbre : calculer P(B).",
+    "reponse": "0,29",
+    "valeur": "0,29",
+    "etapes": {
+      "P(Ā)": "0,7",
+      "0,7 × 0,2": "0,14",
+      "0,15 + 0,14": "0,29"
+    },
+    "pieges": [
+      {
+        "erreur": "oublier le chemin qui passe par Ā",
+        "resultat": "0,15"
+      }
+    ]
+  },
+  {
+    "n": "23",
+    "bloc": "Probabilités",
+    "enonce": "Même arbre : calculer P_B(A).",
+    "reponse": "15/29",
+    "valeur": "15/29",
+    "etapes": {
+      "0,15 ÷ 0,29": "15/29"
+    },
+    "pieges": [
+      {
+        "erreur": "confondre P_B(A) avec P_A(B), lu sur l'arbre",
+        "resultat": "0,5"
+      }
+    ]
+  },
+  {
+    "n": "24",
+    "bloc": "Probabilités",
+    "enonce": "Tableau croisé (30 élèves) : filles demi-pensionnaires 12, filles externes 4, garçons demi-pensionnaires 9, garçons externes 5. Probabilité d'être une fille sachant qu'on est demi-pensionnaire ?",
+    "reponse": "4/7",
+    "valeur": "4/7",
+    "etapes": {
+      "total": "30",
+      "demi-pensionnaires 12 + 9": "21",
+      "12 ÷ 21": "4/7",
+      "piège 12 ÷ 30": "0,4"
+    },
+    "pieges": [
+      {
+        "erreur": "diviser par l'effectif total",
+        "resultat": "0,4"
+      }
+    ]
+  },
+  {
+    "n": "25",
+    "bloc": "Probabilités",
+    "enonce": "Même tableau : donner P(F ∩ D), P_F(D) et P_D(F).",
+    "reponse": "P(F ∩ D) = 0,4 ; P_F(D) = 0,75 ; P_D(F) = 4/7",
+    "valeur": [
+      "0,4",
+      "0,75",
+      "4/7"
+    ],
+    "etapes": {
+      "filles 12 + 4": "16",
+      "12 ÷ 30": "0,4",
+      "12 ÷ 16": "0,75",
+      "12 ÷ 21": "4/7"
+    },
+    "pieges": [
+      {
+        "erreur": "utiliser le même dénominateur pour les trois",
+        "resultat": "12/30 partout"
+      }
+    ]
+  }
+]
