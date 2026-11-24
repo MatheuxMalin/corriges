@@ -1,7 +1,7 @@
 # Automatismes de Première — vérification des 25 exercices
 
-Code de vérification de la vidéo Matheux Malin « Automatismes maths Première : 25 exercices corrigés (sans
-calculatrice) ». Lien vers la vidéo : *à ajouter à la publication*.
+Code de vérification de la vidéo Matheux Malin « Automatismes maths Première : 25 exercices corrigés sans
+calculatrice ». Vidéo : https://youtu.be/V2SWrojJ1s4
 
 Les exercices sont **originaux**, écrits pour la chaîne. Ils couvrent les cinq blocs de la liste « Automatismes »
 du programme de spécialité mathématiques de Première (arrêté du 26 février 2026, BO n° 14 du 2 avril 2026) :
